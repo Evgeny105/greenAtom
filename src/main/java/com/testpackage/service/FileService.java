@@ -1,7 +1,7 @@
-package src.main.java.com.testpackage.service;
+package com.testpackage.service;
 
-import src.main.java.com.testpackage.entity.FileEntity;
-import src.main.java.com.testpackage.repository.FileRepository;
+import com.testpackage.entity.FileEntity;
+import com.testpackage.repository.FileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
