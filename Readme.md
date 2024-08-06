@@ -4,6 +4,7 @@
 docker compose up --build
 ```
 В решении реализованы такие запросы (с помощью curl):
+
 1) Cоздание файла:
 ```sh
 curl -X POST http://localhost:8080/api/files 
@@ -16,10 +17,12 @@ curl -X POST http://localhost:8080/api/files
         }'
 ```
 в ответ получаем id файла.
+
 2) Получение файла:
 ```sh
 curl -X GET http://localhost:8080/api/files/2
 ```
+
 3) Вывод списка всех сохраненных файлов:
 ```sh
 curl -X GET http://localhost:8080/api/files
