@@ -18,9 +18,9 @@ curl -X POST http://localhost:8080/api/files
 ```
 в ответ получаем id файла.
 
-2) Получение файла:
+2) Получение файла через его id:
 ```sh
-curl -X GET http://localhost:8080/api/files/2
+curl -X GET http://localhost:8080/api/files/{id}
 ```
 
 3) Вывод списка всех сохраненных файлов:
