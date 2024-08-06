@@ -1,4 +1,4 @@
-package com.testpackage.dto;
+package src.main.java.com.testpackage.dto;
 
 public class FileRequestDTO {
     private String title;

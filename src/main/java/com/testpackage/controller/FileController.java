@@ -1,8 +1,8 @@
-package com.testpackage.controller;
+package src.main.java.com.testpackage.controller;
 
-import com.testpackage.dto.FileRequestDTO;
-import com.testpackage.entity.FileEntity;
-import com.testpackage.service.FileService;
+import src.main.java.com.testpackage.dto.FileRequestDTO;
+import src.main.java.com.testpackage.entity.FileEntity;
+import src.main.java.com.testpackage.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
